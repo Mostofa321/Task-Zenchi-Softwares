@@ -1,4 +1,5 @@
-import { getCookie, createCookie, deleteCookie, retriveCookie} from './utils.js'
+import './styles/main.css'
+import { getCookie, createCookie, deleteCookie, retriveCookie} from './utils'
 
 // Create a Cookie
 document.getElementById("createButton").addEventListener("click", createCookie);
